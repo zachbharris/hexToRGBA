@@ -1,0 +1,16 @@
+{
+  "name": "@zachbharris/hextorgba",
+  "version": "1.0.0",
+  "description": "Convert HEX to RGBA",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "author": "Zach Harris",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.11.3"
+  }
+}
